@@ -8,7 +8,7 @@ public class ActiTimeApplicationTest {
 	public void actiTimeApplication()
 	{
 		EdgeDriver driver = new EdgeDriver();
-		driver.get("https://demo.actitime.com/login.do"); 
+		driver.get("https://www.amazon.in/"); 
 	}
 }
 
