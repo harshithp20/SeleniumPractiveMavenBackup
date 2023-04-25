@@ -1,5 +1,6 @@
 package practice;
-import org.openqa.selenium.chrome.ChromeDriver;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 public class AmazonHomepageTest {
@@ -7,7 +8,8 @@ public class AmazonHomepageTest {
 	@Test
 	public void amazonHomepageTest()
 	{
-		ChromeDriver driver = new ChromeDriver();
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.amazon.in/"); 
 	}
 }
