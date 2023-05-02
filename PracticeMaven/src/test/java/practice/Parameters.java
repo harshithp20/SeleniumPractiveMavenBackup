@@ -37,6 +37,6 @@ public class Parameters {
 					driver = new EdgeDriver();		
 				}
 		
-		driver.get(URL);
+		driver.get(URL); //Jenkins push
 	}
 }
